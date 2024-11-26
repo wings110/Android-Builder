@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Fold3KernelPoweredBySeparate",
-      "repo": "https://github.com/evilexecutable/android_kernel_samsung_q2q",
-      "branch": "android-14",
+      "repo": "https://github.com/z01-ahaufun/android_kernel_f926n_14",
+      "branch": "master",
       "device": "q2q",
-      "defconfig": "vendor/halium_q2q_eur_openx_defconfig"
+      "defconfig": "vendor/q2q_kor_singlex_defconfig"
     },
     "toolchains": [
       {
