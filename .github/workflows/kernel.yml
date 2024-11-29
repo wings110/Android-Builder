@@ -11,7 +11,7 @@ on:
 jobs:
   Read-configuration:
     name: 🐂 Parse *.config.json
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:20.04
     outputs:
       CONFIGS: ${{ steps.generate-matrix.outputs.CONFIGS }}
       BUILD_DATE: ${{ steps.generate-builddate.outputs.BUILDDATE }}
