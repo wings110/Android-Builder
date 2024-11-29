@@ -5,11 +5,11 @@
             "Branch": "12.1"
         },
         "Device": {
-            "Repo": "https://github.com/wings110/android_device_samsung_q2q",
-            "Branch": "lineage-20.0",
+            "Repo": "https://github.com/wings110/twrp_q2q",
+            "Branch": "master",
             "Location": "device/samsung/q2q",
             "DeviceName": "SM-F926N",
-            "Makefile": "twrp_y2q-eng",
+            "Makefile": "twrp_y2q",
             "BootPartition": "boot"
         }
     }
