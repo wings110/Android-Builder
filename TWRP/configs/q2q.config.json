@@ -6,7 +6,7 @@
         },
         "Device": {
             "Repo": "https://github.com/wings110/twrp_q2q",
-            "Branch": "master",
+            "Branch": "main",
             "Location": "device/samsung/q2q",
             "DeviceName": "SM-F926N",
             "Makefile": "twrp_q2q",
