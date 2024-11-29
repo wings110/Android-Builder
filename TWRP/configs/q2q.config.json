@@ -8,7 +8,7 @@
             "Repo": "https://github.com/wings110/Q2QDEVICES",
             "Branch": "main",
             "Location": "device/samsung/q2q",
-            "DeviceName": "SM-F926N",
+            "DeviceName": "q2q",
             "Makefile": "twrp_q2q",
             "BootPartition": "boot"
         }
