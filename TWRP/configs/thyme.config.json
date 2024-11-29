@@ -5,11 +5,11 @@
             "Branch": "12.1"
         },
         "Device": {
-            "Repo": "https://codeberg.org/DogDayAndroid/twrp_device_xiaomi_thyme",
-            "Branch": "android-13",
-            "Location": "device/xiaomi/thyme",
-            "DeviceName": "thyme",
-            "Makefile": "twrp_thyme",
+            "Repo": "https://github.com/wings110/android_device_samsung_q2q",
+            "Branch": "lineage-20.0",
+            "Location": "device/samsung/q2q",
+            "DeviceName": "SM-F926N",
+            "Makefile": "twrp_q2q",
             "BootPartition": "boot"
         }
     }
