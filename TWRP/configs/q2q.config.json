@@ -9,7 +9,7 @@
             "Branch": "lineage-20.0",
             "Location": "device/samsung/q2q",
             "DeviceName": "SM-F926N",
-            "Makefile": "twrp_q2q",
+            "Makefile": "twrp_y2q-eng",
             "BootPartition": "boot"
         }
     }
