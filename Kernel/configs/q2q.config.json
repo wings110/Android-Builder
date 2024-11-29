@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "Fold3KernelPoweredBySeparate",
-      "repo": "https://github.com/wings110/android_kernel_samsung_q2q",
-      "branch": "android-14",
+      "repo": "https://github.com/Linux4/samsung_kernel",
+      "branch": "SM-F926N",
       "device": "q2q",
       "defconfig": "vendor/q2q_kor_singlex_defconfig"
     },
