@@ -8,7 +8,7 @@
             "Repo": "https://github.com/wings110/Q2QDEVICES",
             "Branch": "main",
             "Location": "device/samsung/q2q",
-            "DeviceName": "q2q",
+            "DeviceName": "",
             "Makefile": "twrp_q2q",
             "BootPartition": "boot"
         }
