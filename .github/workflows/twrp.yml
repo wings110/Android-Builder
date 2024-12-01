@@ -108,6 +108,10 @@ jobs:
           set -e
           lunch ${{ env.DEVICE_MAKEFILE }}-eng && mka adbd ${{ env.DEVICE_BOOT_PARTITION }}image
 
+      - name: ♏ List output files
+        run: |
+          ls -alh ${{ env.OUT_DIR }}/target/product/${{ env.DEVICE_NAME }}
+
       - name: ♎ Take the OrangeFox build
         uses: actions/upload-artifact@v3
         with:
