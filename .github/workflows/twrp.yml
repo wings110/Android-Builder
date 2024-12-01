@@ -110,7 +110,7 @@ jobs:
 
       - name: ♏ List output files
         run: |
-          ls -alh ${{ env.OUT_DIR }}/target/product/${{ env.DEVICE_NAME }}
+          ls ${{ env.OUT_DIR }}/target/product/${{ env.DEVICE_NAME }}/
 
       - name: ♎ Take the OrangeFox build
         uses: actions/upload-artifact@v3
@@ -118,8 +118,8 @@ jobs:
           name: OrangeFox
           if-no-files-found: warn
           path: |
-            ${{ env.OUT_DIR }}/target/product/${{ env.DEVICE_NAME }}/*${{ env.DEVICE_NAME }}.img
-            ${{ env.OUT_DIR }}/target/product/${{ env.DEVICE_NAME }}/*${{ env.DEVICE_NAME }}.zip
+            ${{ env.OUT_DIR }}/target/product/q2q/*.img
+            ${{ env.OUT_DIR }}/target/product/q2q/*${{ env.DEVICE_NAME }}.zip
 
       - name: ♏ Create GitHub Release => (${{ env.BUILD_DATE }})
         continue-on-error: true
