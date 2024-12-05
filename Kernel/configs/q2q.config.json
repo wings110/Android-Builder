@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "Fold3Kernel-F926N",
-      "repo": "https://github.com/AhauFun01/kernel_q2q",
-      "branch": "main",
+      "repo": "https://github.com/wings110/F926N-A14-KERNEL",
+      "branch": "4d3ed266e713d15d6fe1b1721487db0e6e7e5b81",
       "device": "q2q",
       "defconfig": "vendor/q2q_kor_singlex_defconfig"
     },
