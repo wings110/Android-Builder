@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "Fold3Kernel-F926N",
-      "repo": "https://github.com/z01-ahaufun/android_kernel_f926n_14",
-      "branch": "master",
+      "repo": "https://github.com/AhauFun01/kernel_q2q",
+      "branch": "main",
       "device": "q2q",
       "defconfig": "vendor/q2q_kor_singlex_defconfig"
     },
