@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Fold3KernelPoweredBySeparate",
       "repo": "https://github.com/wings110/android_kernel_samsung_q2q",
-      "branch": "android-14",
+      "branch": "master",
       "device": "q2q",
       "defconfig": "vendor/q2q_eur_openx_defconfig"
     },
@@ -26,7 +26,7 @@
       }
     },
     "AnyKernel3": {
-      "use": false,
+      "use": true,
       "release": true
     },
     "enableKernelSU": false,
