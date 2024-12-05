@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Fold3KernelPoweredBySeparate",
       "repo": "https://github.com/evilexecutable/android_kernel_samsung_q2q",
-      "branch": "a13-halium-11.0-focal",
+      "branch": "android-14",
       "device": "q2q",
       "defconfig": "vendor/halium_q2q_eur_openx_defconfig"
     },
