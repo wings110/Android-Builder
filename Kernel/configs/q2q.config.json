@@ -5,7 +5,7 @@
       "repo": "https://github.com/wings110/android_kernel_samsung_q2q",
       "branch": "android-14",
       "device": "q2q",
-      "defconfig": "vendor/q2q_kor_singlex_defconfig"
+      "defconfig": "vendor/halium_q2q_eur_openx_defconfig"
     },
     "toolchains": [
       {
@@ -29,7 +29,7 @@
       "use": true,
       "release": true
     },
-    "enableKernelSU": false,
-    "enableLXC": false
+    "enableKernelSU": true,
+    "enableLXC": true
   }
 ]
