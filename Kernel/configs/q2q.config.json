@@ -24,10 +24,10 @@
   "enableCcache": true,
   "params": {
     "ARCH": "arm64",
-    "CC": "./llvm-arm-toolchain-ship-10.0/bin/clang",
+    "CC": "llvm-arm-toolchain-ship-10.0/bin/clang",
     "externalCommands": {
-      "CROSS_COMPILE": "./proton-clang/bin/aarch64-linux-gnu-",
-      "CROSS_COMPILE_ARM32": "./proton-clang/bin/arm-linux-gnueabi-",
+      "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
+      "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
       "CLANG_TRIPLE": "aarch64-linux-gnu-"
     }
   },
