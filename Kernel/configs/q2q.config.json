@@ -2,35 +2,29 @@
   {
     "kernelSource": {
       "name": "Fold3Kernel-F926N",
-      "repo": "https://github.com/wings110/android_kernel_samsung_q2q",
-      "branch": "android-14",
+      "repo": "https://github.com/wings110/F926N-A14-KERNEL",
+      "branch": "main",
       "device": "q2q",
       "defconfig": "vendor/q2q_kor_singlex_defconfig"
     },
-  "toolchains": [
-    {
-      "name": "llvm-arm-toolchain",
-      "repo": "https://github.com/wings110/llvm-arm-toolchain-ship-10.0",
-      "branch": "main",
-      "binaryEnv": ["llvm-arm-toolchain/bin"]
+    "toolchains": [
+      {
+        "name": "proton-clang",
+        "repo": "https://github.com/kdrag0n/proton-clang",
+        "branch": "master",
+        "binaryEnv": ["./bin"]
+      }
+    ],
+    "enableCcache": true,
+    "params": {
+      "ARCH": "arm64",
+      "CC": "clang",
+      "externalCommands": {
+        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "CLANG_TRIPLE": "aarch64-linux-gnu-"
+      }
     },
-    {
-      "name": "proton-clang",
-      "repo": "https://github.com/kdrag0n/proton-clang",
-      "branch": "master",
-      "binaryEnv": ["proton-clang/bin"]
-    }
-  ],
-  "enableCcache": true,
-  "params": {
-    "ARCH": "arm64",
-    "CC": "llvm-arm-toolchain/bin/clang",
-    "externalCommands": {
-      "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-      "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
-      "CLANG_TRIPLE": "aarch64-linux-gnu-"
-    }
-  },
     "AnyKernel3": {
       "use": true,
       "release": true
