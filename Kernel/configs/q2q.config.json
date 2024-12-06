@@ -12,13 +12,13 @@
       "name": "llvm-arm-toolchain",
       "repo": "https://github.com/wings110/llvm-arm-toolchain-ship-10.0",
       "branch": "main",
-      "binaryEnv": ["./llvm-arm-toolchain-ship-10.0/bin"]
+      "binaryEnv": ["llvm-arm-toolchain-ship-10.0/bin"]
     },
     {
       "name": "proton-clang",
       "repo": "https://github.com/kdrag0n/proton-clang",
       "branch": "master",
-      "binaryEnv": ["./proton-clang/bin"]
+      "binaryEnv": ["proton-clang/bin"]
     }
   ],
   "enableCcache": true,
