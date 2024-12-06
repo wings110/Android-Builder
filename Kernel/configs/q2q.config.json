@@ -7,24 +7,30 @@
       "device": "q2q",
       "defconfig": "vendor/halium_q2q_eur_openx_defconfig"
     },
-    "toolchains": [
-      {
-        "name": "proton-clang",
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
-        "binaryEnv": ["./bin"]
-      }
-    ],
-    "enableCcache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "clang",
-      "externalCommands": {
-        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
-        "CLANG_TRIPLE": "aarch64-linux-gnu-"
-      }
+  "toolchains": [
+    {
+      "name": "llvm-arm-toolchain",
+      "repo": "https://github.com/wings110/llvm-arm-toolchain-ship-10.0",
+      "branch": "main",
+      "binaryEnv": ["./llvm-arm-toolchain-ship-10.0/bin"]
     },
+    {
+      "name": "proton-clang",
+      "repo": "https://github.com/kdrag0n/proton-clang",
+      "branch": "master",
+      "binaryEnv": ["./proton-clang/bin"]
+    }
+  ],
+  "enableCcache": true,
+  "params": {
+    "ARCH": "arm64",
+    "CC": "./llvm-arm-toolchain-ship-10.0/bin/clang",
+    "externalCommands": {
+      "CROSS_COMPILE": "./proton-clang/bin/aarch64-linux-gnu-",
+      "CROSS_COMPILE_ARM32": "./proton-clang/bin/arm-linux-gnueabi-",
+      "CLANG_TRIPLE": "aarch64-linux-gnu-"
+    }
+  },
     "AnyKernel3": {
       "use": true,
       "release": true
