@@ -7,7 +7,7 @@
         "Device": {
             "Repo": "https://github.com/wings110/TWRP-android_device_samsung_q2q",
             "Branch": "master",
-            "Location": "device/xiaomi/thyme",
+            "Location": "device/samsung/q2q",
             "DeviceName": "q2q",
             "Makefile": "twrp_q2q-eng",
             "BootPartition": "boot"
