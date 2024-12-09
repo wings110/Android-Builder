@@ -5,11 +5,11 @@
             "Branch": "12.1"
         },
         "Device": {
-            "Repo": "https://codeberg.org/DogDayAndroid/twrp_device_xiaomi_thyme",
-            "Branch": "android-13",
+            "Repo": "https://github.com/wings110/TWRP-android_device_samsung_q2q",
+            "Branch": "master",
             "Location": "device/xiaomi/thyme",
-            "DeviceName": "thyme",
-            "Makefile": "twrp_thyme",
+            "DeviceName": "q2q",
+            "Makefile": "twrp_q2q-eng",
             "BootPartition": "boot"
         }
     }
